@@ -1,0 +1,217 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape David Martinez} \\ \vspace{4pt}
+    \small 510-962-2005 $|$ \href{mailto:martinezdavid@berkeley.edu}{\underline{martinezdavid@berkeley.edu}} $|$ 
+    \href{https://www.linkedin.com/in/dmartinez212/}{\underline{linkedin.com/dmartinez212}} $|$
+    \href{https://github.com/martinezdavid12}{\underline{github.com/martinezdavid12}}
+\end{center}
+
+\vspace{-15pt}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{Berkeley, CA}
+      {Bachelor of Science in Electrical Engineering and Computer Sciences}{Expected May 2026}
+      \vspace{0.05cm}
+      \newline
+      \textit{\small Bachelor of Arts in Applied Mathematics} \hfill \small GPA: 3.5\\
+      \textsc{\footnotesize{Seed Honors Scholar}}\\
+      \small \textbf{Activities:} Competitive Coding, Berkeley Math Tournament, Trading Competition, ColorStack President \\
+      \small \textbf{Coursework:} Machine Learning, Computer Vision, Convex Optimization, Operating Systems, Computer Architecture\\
+    \resumeSubHeadingListEnd
+  \vspace{-16pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {Software Engineer Intern}{May 2024 - August 2024}
+      {Microsoft}{Redmond, WA}
+      \resumeItemListStart
+        \resumeItem{Enhanced resource utilization and runtime efficiency of large language models and distributed computing systems by 31\% and up to 72\% in specific cases through targeted algorithm optimization research}
+        \resumeItem{Parallelized data pipelines in Scala and Python with Spark on GPU/CPU clusters; designed and engineered compression architectures to surpass resource limitations on cutting-edge ML systems}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Undergraduate Researcher}{February 2023 -- Present}
+      {Berkeley Artificial Intelligence Research (BAIR) - Waller Lab}{Berkeley, CA}
+      \resumeItemListStart
+        \resumeItem{Played a key role in refining deep learning techniques for computer graphics rendering through comprehensive experimentation and analysis with findings to be published soon}
+        \resumeItem{Improving the scalability of NVIDIA's ``Instant Neural Graphics Primitives" and Gaussian Splatting technology for NeRF research, resulting in significant performance enhancements for training and rendering}
+      \resumeItemListEnd
+     
+      
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Software Engineer Intern}{September 2022 -- September 2023}
+      {UC Berkeley Basic Needs Center}{Berkeley, CA}
+      \resumeItemListStart
+        \resumeItem{Engineered a responsive and scalable web application with Firebase, Tailwind, and React that streamlined inventory and transactions for the UC Berkeley community of 40,000+}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Software Engineer Intern}{June 2020 -- December 2020}
+      {Alan AI}{Sunnyvale, CA}
+      \resumeItemListStart
+       \resumeItem{Integrated conversational AI voice assistant technology for diverse clientele applications, orchestrating the development of scalable, secure systems utilizing JavaScript, React, and Flutter frameworks}
+
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\vspace{-13pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Black-Box Adversarial Attacks: Efficacy, Complexity, Improvements 
+ }\href{https://drive.google.com/file/d/18T3vBePflgTwkcm4vQcLlLC2eUqD65yQ/view?usp=sharing}{\small (\underline{Report PDF})}}{February 2024}
+          \resumeItemListStart
+            \resumeItem{Evaluated current adversarial ML techniques for images to determine features and architectural choices which make networks susceptible. Employed findings to develop improved adversarial algorithm with less-perceivable noise}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{IM2SPAIN: Nearest Neighbors for Geo-location} $|$ \emph{Machine Learning, Applied Mathematics}}{May 2024}
+          \resumeItemListStart
+            \resumeItem{Implemented a k-Nearest Neighbors(k-NN) algorithm to predict geographic coordinates from image embeddings encoded using OpenAI’s CLIP model, achieving a 93\% accuracy rate by employing mean displacement error (MDE) for evaluation}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Scalable Neural Radiance Fields} (Publication in preparation)  $|$ \emph{Pytorch}}{February 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Received a federal research fellowship to improve and develop novel deep learning architectures for implicit neural representations and graphics. Explored rransformers and diffusion models for computational problems}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Language Identification Model} $|$ \emph{Natural Language Processing, RNNs, Numpy}}{July 2023 -- August 2023}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented an RNN-based model in Python (NumPy) for language identification of variable-length strings. Implemented parallelized activation layers, linear modules, and back propagation algorithms}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+\vspace{-12pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}, ]
+    \small{\item{
+    \textbf{Skills}{: Parallel and Distributed Computing, Data Engineering, Machine Learning, Computer Vision, NLP}\\
+     \textbf{Languages}{: Java, Python, C, C++, Rust, SQL, JavaScript, HTML/CSS, Go, Swift, .NET, RISC-V, Scala} \\
+     \textbf{Frameworks}{: Spark, Pytorch, TensorFlow, JAX, SciKitLearn, React, Tailwind, Hadoop, OpenMP, CUDA} \\
+     \textbf{Developer Tools}{: Git, Linux, Docker, Google Cloud Platform, Azure, AWS, pandas, NumPy}
+    }}
+ \end{itemize}
+%-------------------------------------------
+\end{document}
